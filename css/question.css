@@ -1,0 +1,54 @@
+body {
+    background-color: #26aaf6;
+    background-size: cover; /* Đảm bảo hình ảnh phủ toàn bộ kích thước của phần tử */
+    background-position: center; /* Canh chỉnh hình ảnh nền vào giữa */
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+.text h1{
+    color:#f9a011;
+    font-family: monospace;
+    letter-spacing: 7px;
+    white-space: nowrap;
+    overflow:hidden;
+    border-right: 5px solid orange;
+    animation: typing forwards 2s;
+    animation-timing-function: step(21);
+}
+
+.text2 h1{
+    color:#e39312;
+    font-family: monospace;
+    letter-spacing: 7px;
+    white-space: nowrap;
+    overflow:hidden;
+    border-right: 5px solid orange;
+    animation: typing forwards 7s;
+    animation-timing-function: step(36);
+}
+
+.Question h1{
+    color:#0c4d79;
+    font-family: monospace;
+    letter-spacing: 7px;
+    white-space: nowrap;
+    overflow:hidden;
+    border-right: 5px solid orange;
+    animation: typing forwards 15s;
+    animation-timing-function: step(14);
+}
+
+#img {
+    width:30%;
+}
+
+@keyframes typing{
+    0%{
+        width:0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
